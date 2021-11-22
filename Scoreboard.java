@@ -1,11 +1,5 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-    /**
- * Write a description of class Scoreboard here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Scoreboard extends Actor
 {
     public Scoreboard(String player1, String player2){
@@ -18,13 +12,9 @@ public class Scoreboard extends Actor
         setImage(img);
     }
     
-    /**
-     * Act - do whatever the Scoreboard wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
     public void act()
     {
-        // Add your action code here.
+        
     }
     
     public void setText(String player1, String player2){
